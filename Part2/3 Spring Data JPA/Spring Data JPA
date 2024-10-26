@@ -1,0 +1,34 @@
+Here’s a breakdown of the key topics to focus on for **Spring Data JPA** in interviews:
+
+### 1. **Entity Mapping**
+   - Basics of entities, primary keys, and composite keys.
+   - Relationship mappings: `@OneToOne`, `@OneToMany`, `@ManyToOne`, and `@ManyToMany`.
+   - Cascade types (`CascadeType.ALL`, `CascadeType.PERSIST`, etc.) and how they affect entity relationships.
+   - `@Embeddable` and `@Embedded` for value-type objects.
+   - Lazy vs. Eager fetching and the `@FetchType` annotation.
+
+### 2. **Repositories**
+   - Types of repositories: `CrudRepository`, `JpaRepository`, `PagingAndSortingRepository`.
+   - Custom repository interfaces and extending base repositories.
+   - How to handle pagination and sorting with `Pageable`.
+   - Using transactional annotations (`@Transactional`) with repositories.
+
+### 3. **Custom Queries and JPQL**
+   - Writing custom queries using `@Query` annotation.
+   - Named queries (`@NamedQuery` and `@NamedNativeQuery`) and when to use them.
+   - Criteria API for dynamic queries.
+   - JPQL vs. Native SQL queries: differences, advantages, and when to use each.
+
+### 4. **JPA Annotations**
+   - Key annotations: `@Entity`, `@Table`, `@Id`, `@GeneratedValue`, `@Column`.
+   - Lifecycle hooks: `@PrePersist`, `@PreUpdate`, `@PostLoad`, etc.
+   - Using `@Version` for optimistic locking.
+
+### 5. **Best Practices**
+   - Structuring data access layers for maintainability and scalability.
+   - Ensuring database connection pooling and resource management.
+   - Handling transactions efficiently and understanding isolation levels.
+   - Common performance optimization techniques (e.g., batch fetching, avoiding N+1 queries).
+   - Working with `DTO` objects and mapping them to entities for data transfer.
+   
+Preparing with these areas will give you a strong foundation in Spring Data JPA and help you confidently discuss both basic and advanced concepts.
