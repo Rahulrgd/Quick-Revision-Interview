@@ -1,3 +1,4 @@
+package JavaBasicsAndSyntax;
 // Example following Java naming conventions and good code organization
 
 // Class name in PascalCase
